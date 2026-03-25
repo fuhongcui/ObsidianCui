@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "repo init 命令详解.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "创建链接.md",
+                "file": "repo init 命令详解.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "创建链接 的反向链接列表"
+              "title": "repo init 命令详解 的反向链接列表"
             }
           },
           {
@@ -184,7 +184,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "78058bec6cf05cab",
+  "active": "8c3da0267211f302",
   "lastOpenFiles": [
     "repo 使用.md",
     "repo init 命令详解.md",
