@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4d7daeee67309f3d",
+        "id": "db783b4402751263",
         "type": "tabs",
         "children": [
           {
-            "id": "f2067c9678cfa7ef",
+            "id": "8700cfbb5d433e69",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "欢迎.md",
+                "file": "创建链接.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "欢迎 的反向链接列表"
+              "title": "创建链接 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "欢迎.md",
+                "file": "创建链接.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "欢迎 的出链列表"
+              "title": "创建链接 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "欢迎.md",
+                "file": "创建链接.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "欢迎 的大纲"
+              "title": "创建链接 的大纲"
             }
           }
         ]
@@ -180,10 +180,11 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:新建数据库": false
+      "bases:新建数据库": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f2067c9678cfa7ef",
+  "active": "8700cfbb5d433e69",
   "lastOpenFiles": [
     "创建链接.md",
     "欢迎.md",
