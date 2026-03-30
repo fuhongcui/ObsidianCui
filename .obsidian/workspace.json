@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "repo init 命令详解.md",
+                "file": "Python学习计划.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "repo init 命令详解"
+              "title": "Python学习计划"
             }
           }
         ]
@@ -186,8 +186,9 @@
   },
   "active": "8c3da0267211f302",
   "lastOpenFiles": [
-    "repo 使用.md",
     "repo init 命令详解.md",
+    "Python学习计划.md",
+    "repo 使用.md",
     "未命名 1.md",
     "欢迎.md",
     "创建链接.md",
