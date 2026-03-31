@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python学习计划.md",
+                "file": "python study.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python学习计划"
+              "title": "python study"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.5
+    "width": 213.5,
+    "collapsed": true
   },
   "right": {
     "id": "8d80ba1a42e114d5",
@@ -94,8 +95,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python学习计划.md",
-                "collapseAll": false,
+                "file": "python study.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -104,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Python学习计划 的反向链接列表"
+              "title": "python study 的反向链接列表"
             }
           },
           {
@@ -113,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "创建链接.md",
+                "file": "python study.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "创建链接 的出链列表"
+              "title": "python study 的出链列表"
             }
           },
           {
@@ -156,21 +157,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "创建链接.md",
+                "file": "python study.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "创建链接 的大纲"
+              "title": "python study 的大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,7 +188,7 @@
   "active": "8c3da0267211f302",
   "lastOpenFiles": [
     "repo init 命令详解.md",
-    "Python学习计划.md",
+    "python study.md",
     "repo 使用.md",
     "未命名 1.md",
     "欢迎.md",
