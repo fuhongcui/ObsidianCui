@@ -22,20 +22,6 @@
             }
           },
           {
-            "id": "81ba4eb04894e489",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "python/yield.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "yield"
-            }
-          },
-          {
             "id": "d06a78c4196ef9be",
             "type": "leaf",
             "state": {
@@ -47,6 +33,20 @@
               },
               "icon": "lucide-file",
               "title": "decorator"
+            }
+          },
+          {
+            "id": "11297eb8c2e93551",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "python/yield.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "yield"
             }
           }
         ],
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "python/decorator.md",
+                "file": "python/yield.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "decorator 的反向链接列表"
+              "title": "yield 的反向链接列表"
             }
           },
           {
@@ -142,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "python/decorator.md",
+                "file": "python/yield.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "decorator 的出链列表"
+              "title": "yield 的出链列表"
             }
           },
           {
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "python/decorator.md",
+                "file": "python/yield.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "decorator 的大纲"
+              "title": "yield 的大纲"
             }
           }
         ],
@@ -211,13 +211,14 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "d06a78c4196ef9be",
+  "active": "11297eb8c2e93551",
   "lastOpenFiles": [
-    "python/yield.md",
     "python/decorator.md",
+    "python/yield.md",
     "repo init 命令详解.md",
     "python/python study.md",
     "python",
