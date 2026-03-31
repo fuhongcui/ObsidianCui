@@ -3,5 +3,6 @@
   "theme": "system",
   "interfaceFontFamily": "微软雅黑",
   "textFontFamily": "微软雅黑",
-  "monospaceFontFamily": "Cascadia Mono"
+  "monospaceFontFamily": "Cascadia Mono",
+  "baseFontSize": 14
 }
