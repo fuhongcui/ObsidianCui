@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "python/yield.md",
-                "mode": "source",
+                "file": "计算机图形学基础_第四版_中文翻译.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "yield"
+              "title": "计算机图形学基础_第四版_中文翻译"
             }
           }
         ],
@@ -217,9 +217,9 @@
   },
   "active": "11297eb8c2e93551",
   "lastOpenFiles": [
-    "python/decorator.md",
     "python/yield.md",
     "repo init 命令详解.md",
+    "python/decorator.md",
     "python/python study.md",
     "python",
     "repo 使用.md",
