@@ -105,3 +105,82 @@ repo init -u https://android.googlesource.com/platform/manifest -b master --refe
 ```bash
 repo init -u git@example.com:manifest.git -b dev -m my_manifest.xml -g default,my_driver
 ```
+
+
+在使用 `repo init --reference` 初始化仓库后，你的本地代码库会建立一个指向“引用库”（Reference Repo）的硬链接或缓存机制。这能极大节省下载流量，但同步最新代码时需要注意引用库与当前库的**双重更新**。
+
+要快速同步最新代码，建议遵循以下步骤：
+
+---
+
+### 1. 先更新引用库（Reference Repo）
+
+这是最关键的一步。如果你的引用库本身是旧的，那么新同步的仓库依然需要从远程服务器下载大量数据。
+
+进入你存放引用库的目录，执行同步：
+
+Bash
+
+```
+cd /path/to/your/reference_repo
+repo sync -j$(nproc) -c --no-tags
+```
+
+### 2. 在当前工程中执行快速同步
+
+回到你当前的工作目录，使用以下组合参数来提升速度：
+
+Bash
+
+```
+repo sync -j$(nproc) -c -d --no-tags --prune
+```
+
+**参数详解：**
+
+- **`-j$(nproc)`**：使用多线程同步（`nproc` 会自动获取你电脑的 CPU 核心数）。
+    
+- **`-c` (或 `--current-branch`)**：只同步清单文件（manifest）中指定的当前分支，忽略其他冗余分支，大幅减少下载量。
+    
+- **`-d` (或 `--detach`)**：将项目回退到清单文件指定的固定版本，避免本地改动导致的冲突中断同步。
+    
+- **`--no-tags`**：不下载标签（Tags），这在大型项目（如 Android）中可以节省大量空间和时间。
+    
+- **`--prune`**：删除远程已经不存在的本地分支，保持工作区干净。
+    
+
+---
+
+### 3. 如果想进一步加速（进阶技巧）
+
+#### A. 减少 Git 历史深度
+
+如果你不需要查看完整的历史提交记录，只想要最新的代码，可以在 `repo init` 时（或修改 `.repo/manifests`）加入 `--depth=1`：
+
+Bash
+
+```
+repo init --reference=/path/to/ref -u <URL> -b <BRANCH> --depth=1
+repo sync -c
+```
+
+#### B. 仅同步特定的项目
+
+如果你只关心某几个模块，可以直接在 sync 后面加上项目路径，而不是同步整个大仓：
+
+Bash
+
+```
+repo sync platform/frameworks/base platform/system/core
+```
+
+#### C. 利用网络优化
+
+如果远程服务器在海外，确保你的终端配置了代理：
+
+Bash
+
+```
+export http_proxy=http://127.0.0.1:端口号
+export https_proxy=http://127.0.0.1:端口号
+```
